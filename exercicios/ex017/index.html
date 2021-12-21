@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        
+            /* Recomendação oficial: Usar px ou em */
+            /* 16px geralmente é = 1"em" */
+           
+            /* - Medidas Absolutas 
+
+        cm, mm , in(polegadas) , px, pt, pc(paica)
+        
+        - Medidas Relativas 
+        em (tamanho atual da fonte), ex (Altura x da fonte), rem (a fonte que ta configurada no body), vw (tamano de tela, view withd)
+
+        */
+    *font-size: 1em;
+    *font-weight: bolder;
+    *font-style: italic ;
+    *text-decoration: underline; 
+    /* tipos de tags para pesos de font lighter normal bold bolder */
+    
+    /* tag para sumblinhado texte-decoration: Underline: */
+/* tag para peso da font é fonte-weight: */
+/* (Weight=peso) (width=altura) (height=largura) */
+}
+</style>
+
+<style>
+h1{
+   
+    /* shorthand - vai condençar todas as configução do texto nas seguintes sequencias 
+    - fonte-style -> font-weight -> font-size -> font-family 
+     
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+    
+    */
+    font: italic bolder 3em Arial, sans serif
+}
+
+h2{
+font: bolder 2em Arial 
+}
+
+</style>
+</head >
+
+
+
+
+
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, corrupti laudantium tempora qui veritatis, eaque consectetur accusamus est distinctio quod delectus libero? Excepturi, maiores harum laborum ipsa provident voluptatem  doloremque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis necessitatibus, consequuntur aspernatur fugiat quisquam adipisci? Ut perspiciatis ad, voluptas neque, culpa eveniet rerum nihil iure minima natus beatae itaque! Architecto. Lorem ipsum dolor sit amet <p>consectetur, adipisicing elit. Molestiae odit quos a culpa dolore ad at voluptatem! Eveniet veritatis sint expedita voluptate, accusantium odio provident. Corporis veritatis error et sapiente?</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, expedita? A, neque deleniti in laboriosam vel unde tempora hic reiciendis dolore minus? Vitae voluptates nisi laboriosam voluptatem consectetur tempore nihil?</p>
+</body>
+</html>

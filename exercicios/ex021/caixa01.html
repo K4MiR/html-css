@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de caixas</title>
+<style>
+
+
+h1{ /*elemento do box-level*/
+/* se quiser transformar ele em inline usar seletor 
+"display: inline;" */
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    
+    *border-width: 10px;
+    *border-style: solid;
+    *border-color: lightseagreen;
+    
+    border: 10px solid lightseagreen;
+/* para simplificar os seletores é só usar os comandos solicitantes */
+
+    *padding-top: 10px;
+    *padding-right: 10px;
+    *padding-left: 10px;
+    *padding-bottom: 10px;
+   
+     padding: 10px;
+/* se colocar só dois valores por ex: 10px 20px vai ficar 10 em cima e 10 em baixo e 20 nas laterais.
+Se todos forem o mesmo valor basta colocar apenas um valor */
+
+    *margin-top: 20px ;
+    *margin-right: 20px;
+    *margin-bottom: 40px;
+    *margin-left: 20px;
+    
+     margin: 20px auto 40px auto;
+     /* margin com valores no "auto" serve para deixar alinhadas no centro da página */
+
+    *outline-width: 5px;
+    *outline-style: dashed;
+    *outline-color: salmon;
+
+    outline: 5px dashed salom;
+    /* simplificar com valores */
+
+    *outline- 
+    *margin: auto;
+    /* margin: auto serve para deixar a caixa no centro da página */
+    /* outline é um tracejado que fica dentro da margin */
+}
+
+a{ /* ancora que é um elemento do tipo inline-level*/
+/* também pode transformar uma inline-level em um block 
+o block vai quebrar a linha e ocupar a página toda.*/
+
+    *border-width: 10px;
+    *border-style: solid;
+    *border-color: red;
+    
+     border: 10px solid red;
+     /* simplificado */
+    
+    *padding-right: 10px;
+    *padding-left: 10px;
+    *padding-bottom: 10px;
+    *padding-top: 10px;
+
+    padding: 10px;
+    /* simplificado */
+}
+
+</style>
+</head>
+<body>
+    <h1>Exemplos de caixas box-levels</h1>
+    <p>Parágrafos também são exemplos de box-levels, mas os <a href="#">Links são exemplos de caixas inline-levels</a>. Vamos ver como tudo isso funciona.</p> 
+
+</body>
+</html>

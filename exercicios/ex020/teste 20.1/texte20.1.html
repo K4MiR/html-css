@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Testes Links</title>
+
+    <style>
+        body{
+font-family: Arial, Helvetica, sans-serif;
+        }
+
+a{
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+    /* text-decoration: none -> serve para tirar o sumblinhado do link */
+}
+
+.especial{
+    background-color: rgb(141, 76, 141);
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+    /* Quando o site foi visitado o link fica desta cor. */
+}
+
+
+a:hover{
+    color: rgb(0, 0, 0);
+text-decoration: underline;
+
+}
+
+a:active{
+    color: yellow;
+    /* a:active -> para ao clicar aparecer a cor e o seletor precisa está abaixo dos demais. */
+}
+.especial::after{
+    content:'⇐';
+}
+a::before{
+    content:'⇒';
+}
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io/" class="especial" target="_blank" rel="external">Repositório Github</a></li>
+        <li><a href="https://www.youtube.com/cursoemvideo" class="especial" target="_blank" rel="external">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" class="especial" target="_blank" rel="external">Curso em Video</a></li>
+    </ul>
+</body>
+</html>
