@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://k4mir.github.io/html-css/exercicios/ex001/index.html">Execultar o exercício 001</a>
+<a href="https://k4mir.github.io/html-css/estudos/ex001/index.html">Execultar o exercício 001</a>
